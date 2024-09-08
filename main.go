@@ -20,6 +20,8 @@ func main()  {
         Net:    "tcp",
         Addr:   "127.0.0.1:3306",
         DBName: "recordings",
+        AllowNativePasswords: true,
+
     }
     // Aquire a database handle
     var err error
